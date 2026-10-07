@@ -17,14 +17,11 @@ except ImportError as import_fail:
 
     # pylint: disable=raise-missing-from
     raise ImportError(
-        "\n\nMISSING FUNCTION --> In your 'hello_world.py' file, we can not find or import the"
-        f" function named {item_name}. \nThe tests for this first exercise expect a function that"
-        f' returns the string "Hello, World!"'
-        f'\n\nDid you use print("Hello, World!") instead?'
+        hello()
     ) from None
 
 
 class HelloWorldTest(unittest.TestCase):
     def test_say_hi(self):
-        msg = "\n\nThis test expects a return of the string 'Hello, World!' \nDid you use print('Hello, World!') by mistake?"
-        self.assertEqual(hello(), "Hello, World!", msg=msg)
+        msg = hello()
+        self.assertEqual(msg, "Hello, World!", msg=msg)
