@@ -25,5 +25,8 @@ alphab="a b a c a b"
 count={}
 for word in alphab(item.split):     #instead of  alphab(item.split) alphabit.split()
   count[word]=count.get(word,0)+1
+
+
+  #this got many faults 
   
 

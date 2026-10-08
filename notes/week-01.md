@@ -10,3 +10,7 @@ Week 1 started. Goal: become an AI systems engineer in 78 weeks.
 ## Day 2: Exercism
 - Set up Exercism, solved hello-world (failed, then passed)
 - Learned: run the tests first and read the failure from the bottom up
+
+## Day3: 
+- learn:Python : List, Tuple, Set and Dictionary
+- practise easy exercices in order to make sure i will memorize the functions and the methods
