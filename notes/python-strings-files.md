@@ -22,6 +22,7 @@ with open("scores.csv") as f:
 - `with open(...) as f` opens the file and closes it automatically
 - `for line in f` gives one line at a time, each ending with a line break
 - Lines are text, so I use `float()` or `int()` before adding numbers
+- A file can be read only once
 
 ## Writing a file
 ```python
